@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #2d9e89;
+    background-color: #2aa18b;
 }
 
 
@@ -115,6 +115,12 @@ body {
     .bayan__text {
         font-size: 3vh;
     }
+    .bayan__image img{
+        width: 50vh;
+    }
+    .bayan__item:hover  .bayan__image  img{
+        max-height: 50vh;
+    }
 }
 
 @media (max-width:567px){
@@ -126,6 +132,12 @@ body {
     }
     .bayan__text {
         font-size: 2vh;
+    }
+    .bayan__image img{
+        width: 40vh;
+    }
+    .bayan__item:hover  .bayan__image  img{
+        max-height: 40vh;
     }
 }
 
